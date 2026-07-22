@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://bfm2nnbsnpijl"]
+
+[ext_resource type="Script" uid="uid://bcyvsyimpx5ab" path="res://Scripts/fish.gd" id="1_c4ibo"]
+[ext_resource type="Texture2D" uid="uid://8vlk04b7rgxn" path="res://Assets/fish1.jpeg" id="2_4fqy1"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_urn1o"]
+font_size = 64
+font_color = Color(1, 0, 0, 1)
+
+[node name="Fish" type="Node2D" unique_id=412361149]
+script = ExtResource("1_c4ibo")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=695502514]
+
+[node name="Fish1" type="Sprite2D" parent="." unique_id=395596840]
+position = Vector2(547, 285)
+texture = ExtResource("2_4fqy1")
+
+[node name="Label" type="Label" parent="." unique_id=1084010631]
+offset_left = 348.0
+offset_top = 43.0
+offset_right = 436.0
+offset_bottom = 146.0
+text = "15"
+label_settings = SubResource("LabelSettings_urn1o")

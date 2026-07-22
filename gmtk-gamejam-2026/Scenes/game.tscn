@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://cdn5uj6r780u2"]
+
+[ext_resource type="Script" uid="uid://cxpbqix21gp57" path="res://Scripts/game.gd" id="1_3dryh"]
+[ext_resource type="PackedScene" uid="uid://d0s16vfv23lb7" path="res://Scenes/fishing_rod.tscn" id="1_ebmjs"]
+[ext_resource type="PackedScene" uid="uid://bcbhl32ytfsto" path="res://Scenes/ui.tscn" id="2_qxrlw"]
+[ext_resource type="PackedScene" uid="uid://bfm2nnbsnpijl" path="res://Scenes/fish.tscn" id="3_wrm1d"]
+
+[node name="Game" type="Node2D" unique_id=569528911]
+script = ExtResource("1_3dryh")
+
+[node name="FishingRod" parent="." unique_id=1315229821 instance=ExtResource("1_ebmjs")]
+position = Vector2(-416, -2)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=992425065]
+
+[node name="UI" parent="." unique_id=1574652548 instance=ExtResource("2_qxrlw")]
+offset_left = -576.0
+offset_top = -318.0
+offset_right = -576.0
+offset_bottom = -318.0
+
+[node name="Fish" parent="." unique_id=412361149 instance=ExtResource("3_wrm1d")]
+position = Vector2(-200, -250)
+worth_at_shop = 1
+name_of_fish = "Basic Bitch"
+cooldown_for_fish = 15.0
