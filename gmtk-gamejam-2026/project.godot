@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Gamestate="*uid://5mrttiyu35da"
+Upgrades="*uid://d11lc5peoc5eh"
 
 [physics]
 
