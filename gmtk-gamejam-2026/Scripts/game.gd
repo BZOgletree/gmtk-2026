@@ -13,11 +13,6 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	for i in Gamestate.active_rods.size():
-		if not Gamestate.active_fish[i] and "rod" in Gamestate.active_rods[i]:
-			print("Spawning fihs")
-			Gamestate.active_fish[i] = true
-			_on_spawn_fish(i)
 	pass
 
 func _on_spawn_fish(location: int) -> void:

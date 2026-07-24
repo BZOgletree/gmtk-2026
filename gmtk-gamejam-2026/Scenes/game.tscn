@@ -6,10 +6,10 @@
 [node name="Game" type="Node2D" unique_id=569528911]
 script = ExtResource("1_3dryh")
 
-[node name="Camera2D" type="Camera2D" parent="." unique_id=992425065]
-
 [node name="UI" parent="." unique_id=1574652548 instance=ExtResource("2_qxrlw")]
 offset_left = -576.0
 offset_top = -318.0
 offset_right = -576.0
 offset_bottom = -318.0
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=992425065]

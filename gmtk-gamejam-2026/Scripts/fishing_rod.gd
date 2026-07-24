@@ -11,10 +11,15 @@ var rod
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
 	bait = Upgrades.Bait.new('Worms', 0.0, 0, 0)
+	bait.cost = bait.base_price
 	hook = Upgrades.Hook.new('Steel Hook', 0.0, 0, 0)
+	hook.cost = hook.base_price
 	line = Upgrades.Line.new('Thread', 0.0, 0, 0)
+	line.cost = line.base_price
 	sinker = Upgrades.Sinker.new('Bobber', 0.0, 0, 0)
+	sinker.cost = sinker.base_price
 	rod = Upgrades.Rod.new('Super Rod', 0, 0, 0)
+	rod.cost = rod.base_price
 	pass 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

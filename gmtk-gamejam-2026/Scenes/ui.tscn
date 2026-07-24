@@ -44,3 +44,250 @@ text = "Fish Caught: 0"
 label_settings = SubResource("LabelSettings_jxero")
 horizontal_alignment = 2
 vertical_alignment = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="." unique_id=1828691017]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 516.0
+offset_right = 1152.0
+offset_bottom = 645.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2" unique_id=1663250004]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Spacer5" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1953815414]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Bait" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=1627200455]
+layout_mode = 2
+text = "Bait"
+
+[node name="Spacer4" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1375608939]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Bait2" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=1693658989]
+layout_mode = 2
+text = "Bait"
+
+[node name="Spacer3" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1223813973]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Bait3" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=318405600]
+layout_mode = 2
+text = "Bait"
+
+[node name="Spacer2" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1529627088]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Bait4" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=895061643]
+layout_mode = 2
+text = "Bait"
+
+[node name="Spacer" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1166224186]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Bait5" type="Button" parent="VBoxContainer2/HBoxContainer" unique_id=1798398991]
+layout_mode = 2
+text = "Bait"
+
+[node name="Spacer6" type="Control" parent="VBoxContainer2/HBoxContainer" unique_id=1228335077]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer2" unique_id=1948227282]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Spacer6" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=1431190767]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Hook" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=1606900139]
+layout_mode = 2
+text = "Hook"
+
+[node name="Spacer4" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=1809573778]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Hook2" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=900417059]
+layout_mode = 2
+text = "Hook"
+
+[node name="Spacer3" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=1730944316]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Hook3" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=1643307089]
+layout_mode = 2
+text = "Hook"
+
+[node name="Spacer2" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=1113761084]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Hook4" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=1080510032]
+layout_mode = 2
+text = "Hook"
+
+[node name="Spacer" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=992641469]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Hook5" type="Button" parent="VBoxContainer2/HBoxContainer2" unique_id=587903164]
+layout_mode = 2
+text = "Hook"
+
+[node name="Spacer5" type="Control" parent="VBoxContainer2/HBoxContainer2" unique_id=1519769340]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="VBoxContainer2" unique_id=1525863853]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Spacer6" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=1174990907]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Line" type="Button" parent="VBoxContainer2/HBoxContainer3" unique_id=2024177318]
+layout_mode = 2
+text = "Line"
+
+[node name="Spacer4" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=636527901]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Line2" type="Button" parent="VBoxContainer2/HBoxContainer3" unique_id=1610060987]
+layout_mode = 2
+text = "Line"
+
+[node name="Spacer3" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=857877319]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Line3" type="Button" parent="VBoxContainer2/HBoxContainer3" unique_id=562684063]
+layout_mode = 2
+text = "Line"
+
+[node name="Spacer2" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=1099617186]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Line4" type="Button" parent="VBoxContainer2/HBoxContainer3" unique_id=361615385]
+layout_mode = 2
+text = "Line"
+
+[node name="Spacer" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=528455816]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Line5" type="Button" parent="VBoxContainer2/HBoxContainer3" unique_id=1961995579]
+layout_mode = 2
+text = "Line"
+
+[node name="Spacer5" type="Control" parent="VBoxContainer2/HBoxContainer3" unique_id=210210078]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer4" type="HBoxContainer" parent="VBoxContainer2" unique_id=775036578]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Spacer6" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=1848315767]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Rod" type="Button" parent="VBoxContainer2/HBoxContainer4" unique_id=1834206986]
+layout_mode = 2
+text = "Rod"
+
+[node name="Spacer3" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=1417222758]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Rod2" type="Button" parent="VBoxContainer2/HBoxContainer4" unique_id=874736092]
+layout_mode = 2
+text = "Rod"
+
+[node name="Spacer4" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=880692094]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Rod3" type="Button" parent="VBoxContainer2/HBoxContainer4" unique_id=1433595737]
+layout_mode = 2
+text = "Rod"
+
+[node name="Spacer2" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=39237354]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Rod4" type="Button" parent="VBoxContainer2/HBoxContainer4" unique_id=1419207550]
+layout_mode = 2
+text = "Rod"
+
+[node name="Spacer" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=847105571]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Rod5" type="Button" parent="VBoxContainer2/HBoxContainer4" unique_id=1554673950]
+layout_mode = 2
+text = "Rod"
+
+[node name="Spacer5" type="Control" parent="VBoxContainer2/HBoxContainer4" unique_id=2068005022]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="HBoxContainer5" type="HBoxContainer" parent="VBoxContainer2" unique_id=2041765003]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Spacer6" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=1803993235]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sinker" type="Button" parent="VBoxContainer2/HBoxContainer5" unique_id=330312518]
+layout_mode = 2
+text = "Sinker"
+
+[node name="Spacer" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=1058456198]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sinker2" type="Button" parent="VBoxContainer2/HBoxContainer5" unique_id=1480257149]
+layout_mode = 2
+text = "Sinker"
+
+[node name="Spacer2" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=2071103577]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sinker3" type="Button" parent="VBoxContainer2/HBoxContainer5" unique_id=1679716286]
+layout_mode = 2
+text = "Sinker"
+
+[node name="Spacer3" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=1814619366]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sinker4" type="Button" parent="VBoxContainer2/HBoxContainer5" unique_id=212198476]
+layout_mode = 2
+text = "Sinker"
+
+[node name="Spacer4" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=1735813201]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Sinker5" type="Button" parent="VBoxContainer2/HBoxContainer5" unique_id=1874080745]
+layout_mode = 2
+text = "Sinker"
+
+[node name="Spacer5" type="Control" parent="VBoxContainer2/HBoxContainer5" unique_id=1689603138]
+layout_mode = 2
+size_flags_horizontal = 3

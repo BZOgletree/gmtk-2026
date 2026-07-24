@@ -18,6 +18,7 @@ extends Node2D
 func _ready():
 	Gamestate.tick.connect(_on_tick)
 	Gamestate.click.connect(_on_click)
+	print("spawned")
 
 func _on_tick() -> void:
 	cooldown_for_fish -= 1

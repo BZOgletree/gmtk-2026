@@ -1,27 +1,10 @@
 extends Node
 
-@export var current_money: int = 0
-@export var total_fish_caught: int = 0
-@export var tick_rate: float = 1.0
-@export var active_rods = {
-	0: {},
-	1: {},
-	2: {},
-	3: {},
-	4: {}
-}
-@export var active_fish = {
-	0: true,
-	1: false,
-	2: false,
-	3: false,
-	4: false
-}
 const global_positions_for_each_location = {
 	0: {
 		"rod": {
 			x = -420,
-			y = 250
+			y = 50
 		},
 		"fish": {
 			x = -420,
@@ -31,7 +14,7 @@ const global_positions_for_each_location = {
 	1: {
 		"rod": {
 			x = -210,
-			y = 250
+			y = 50
 		},
 		"fish": {
 			x = -210,
@@ -41,7 +24,7 @@ const global_positions_for_each_location = {
 	2: {
 		"rod": {
 			x = 0,
-			y = 250
+			y = 50
 		},
 		"fish": {
 			x = 0,
@@ -51,7 +34,7 @@ const global_positions_for_each_location = {
 	3: {
 		"rod": {
 			x = 210,
-			y = 250
+			y = 50
 		},
 		"fish": {
 			x = 210,
@@ -61,13 +44,31 @@ const global_positions_for_each_location = {
 	4: {
 		"rod": {
 			x = 420,
-			y = 250
+			y = 50
 		},
 		"fish": {
 			x = 420,
 			y = -125
 		}
 	}
+}
+
+@export var current_money: int = 0
+@export var total_fish_caught: int = 0
+@export var tick_rate: float = 1.0
+@export var active_rods = {
+	0: null,
+	1: null,
+	2: null,
+	3: null,
+	4: null
+}
+@export var active_fish = {
+	0: true,
+	1: false,
+	2: false,
+	3: false,
+	4: false
 }
 
 var _time_elapsed: float = 0.0
